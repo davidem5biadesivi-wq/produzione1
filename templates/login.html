@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login - M5 Biadesivi</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header><h1>Login - M5 Biadesivi</h1></header>
+    <main>
+        <form method="POST">
+            <label for="ruolo">Accedi come:</label>
+            <select name="ruolo" id="ruolo">
+                <option value="operatore">Operatore</option>
+                <option value="ufficio">Ufficio</option>
+            </select>
+            <button type="submit">Accedi</button>
+        </form>
+    </main>
+</body>
+</html>
